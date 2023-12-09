@@ -57,9 +57,10 @@ const request = require('@cypress/request');
   
  async function news() { 
   
-     let response = await fetch('https://darkapi--technicalhacke4.repl.co/derananews'); 
+     let response = await fetch('darkapi--technicalhacke4.repl.co/derananews'); 
      let data = await response.json(); 
-let mg =`${derana.result.image}`   
+let mg =`
+`${derana.result.image}`   
 `${derana.result.title}`
 `${derana.result.desc}` 
 ●━━━━━━━━━━━━━━━━━━━━━●
