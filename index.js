@@ -57,23 +57,27 @@ const request = require('@cypress/request');
   
  async function news() { 
   
-     let response = await fetch('darkapi--technicalhacke4.repl.co/derananews'); 
+     let response = await fetch('https://hirunews.aquaapk-dl.repl.co/api/latest'); 
      let data = await response.json(); 
-let mg =`
-${derana.result.image} 
-${derana.result.title}
-${derana.result.desc} 
+let mg =`*🗞️ ${data.title} 🗞️*
+
 ●━━━━━━━━━━━━━━━━━━━━━●
 
-🗞️ *News From hirunews.lk*
+⏰ ${data.time}
 
-🔗 *Create By Dark Yasiya X Team*
+●━━━━━━━━━━━━━━━━━━━━━● 
 
-📍 *SL News Center*
+📖 ${data.desc}
 
-📰 *Group Link* :- https://chat.whatsapp.com/ECcDo6SuJbn0xb9gNLzrYP
+●━━━━━━━━━━━━━━━━━━━━━●
 
-●━━━━━━━━━━━━━━━━━━━━━●`
+🌎 𝐍𝐞𝐰𝐬 𝐅𝐨𝐫𝐦 *hirunews.lk*
+👨‍💻 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤 :-
+_https://chat.whatsapp.com/ECcDo6SuJbn0xb9gNLzrYP_
+
+💃🏼 ᴅᴇᴠᴀʟᴏᴘᴇʀ ʙʏ ᴅᴀʀᴋ ʏᴀsɪʏᴀ x ᴛᴇᴀᴍ 💃🏼
+🏮 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ᴠᴀᴊɪʀᴀ 🏮
+`
      let newss = await news1.findOne({ id: '123' }) 
   
      if (!newss) { 
