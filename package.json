@@ -5,10 +5,10 @@
     "main": "index.js",
     "type": "commonjs", 
     "scripts": {
-          "start": "node index.js  --attach --name moxie", 
-          "stop": "node stop moxier" 
+          "start": "node index.js  --attach --name NEWS-BOT", 
+          "stop": "node stop NEWS-ERRO" 
     },
-    "author": "nipuna",
+    "author": "yasiyaofc1",
     "license": "GPL-3.0",
     "dependencies": {
         "@whiskeysockets/baileys": "latest",
