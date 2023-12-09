@@ -71,12 +71,13 @@ let mg =`*🗞️ ${data.title} 🗞️*
 
 ●━━━━━━━━━━━━━━━━━━━━━●
 
-🌎 𝐍𝐞𝐰𝐬 𝐅𝐨𝐫𝐦 *hirunews.lk*
+🌎 𝐍𝐞𝐰𝐬 𝐅𝐨𝐫𝐦 _hirunews.lk_
 👨‍💻 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤 :-
 _https://chat.whatsapp.com/ECcDo6SuJbn0xb9gNLzrYP_
 
-💃🏼 ᴅᴇᴠᴀʟᴏᴘᴇʀ ʙʏ ᴅᴀʀᴋ ʏᴀsɪʏᴀ x ᴛᴇᴀᴍ 💃🏼
-🏮 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ᴠᴀᴊɪʀᴀ 🏮
+
+*💃🏼 ᴅᴇᴠᴀʟᴏᴘᴇʀ ʙʏ ᴅᴀʀᴋ ʏᴀsɪʏᴀ x ᴛᴇᴀᴍ 💃🏼*
+*🏮 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ᴠᴀᴊɪʀᴀ 🏮*
 `
      let newss = await news1.findOne({ id: '123' }) 
   
